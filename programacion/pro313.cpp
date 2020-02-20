@@ -2,7 +2,19 @@
 using namespace std;
 int main()
 {
-	int NA, NPA;
+	int  n, i;
 
- 	float notas,M , T;
+ 	float notas, m, sa=0;
+cout<<"ingrese numero de alumnos"<<endl;
+cin>>n;
+cout<<"ingrese notas: "<<endl;
+for(i=0;i<=n;i++){
+cin>>notas;
+sa=sa+notas;
+}
+m=sa/n;
+cout<<"el promedio es:"<<m<<endl;
+
+
+return 0;
 }
